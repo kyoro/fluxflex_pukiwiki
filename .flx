@@ -1,0 +1,31 @@
+[permission]
+public_html/backup 777
+public_html/cache  777
+public_html/diff   777
+public_html/wiki   777
+
+[setup]
+chmod 755 .
+chmod 755 public_html
+chmod 644 public_html/*
+chmod 755 public_html/image
+chmod 644 public_html/image/*
+chmod 777 public_html/counter
+chmod 644 public_html/counter/*
+chmod 755 public_html/plugin
+chmod 644 public_html/plugin/*
+chmod 777 public_html/trackback
+chmod 644 public_html/trackback/*
+chmod 755 public_html/skin
+chmod 644 public_html/skin/*
+chmod 755 public_html/lib
+chmod 644 public_html/lib/*
+chmod 777 public_html/cache
+chmod 666 public_html/cache/*
+chmod 644 public_html/cache/index.html
+chmod 777 public_html/wiki
+chmod 666 public_html/wiki/*
+chmod 777 public_html/diff
+chmod 777 public_html/backup
+chmod 777 public_html/attach
+chmod 644 public_html/attach/*
